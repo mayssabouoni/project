@@ -1,0 +1,73 @@
+main{
+  min-height: 80vh;
+}
+.navbar{
+  background-color:rgb(247, 243, 243) !important;
+  box-shadow: -2px -2px 8px rgba(255,255,255,1),
+                -2px -2px 12px rgba(255, 255, 255, 0.281),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.034),
+                2px 2px 8px rgba(0, 0, 0, 0.082);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  color:rgb(138, 175, 245)
+  
+}
+
+
+.rounded{
+  box-shadow: -2px -2px 8px rgba(255,255,255,1),
+              -2px -2px 12px rgba(255, 255, 255, 0.281),
+              inset 2px 2px 4px rgba(255, 255, 255, 0.034),
+              2px 2px 8px rgba(0, 0, 0, 0.082);
+              transition: transform 0.3s;
+}
+.rounded:hover{
+  box-shadow: -2px -2px 8px rgba(255,255,255,1),
+              -2px -2px 12px rgba(255, 255, 255, 0.411),
+              inset 2px 2px 4px rgba(255, 255, 255, 0.158),
+              2px 2px 8px rgba(0, 0, 0, 0.192);
+              transform: scale(1.1);
+}
+.home{
+  margin-top: 100px;
+}
+h1{
+  padding: 15px;
+  letter-spacing: 5px;
+}
+h2{
+  font-size: 18px;
+  padding: 10px;
+}
+.badge{
+  color: white;
+  background-color: blue;
+}
+
+
+body{
+  background-image: url(https://i.pinimg.com/564x/a9/15/12/a91512920dfafd2fddff081c2b3c6ae3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.design{
+  color:black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sweet{
+  color:olive;
+}
+.my-3 {
+  border-radius: 50px;
+}
+.image{
+  justify-content: center;
+}
+
+.navbar{
+  background-color: green;
+  color:greenyellow
+}
